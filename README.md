@@ -1,6 +1,6 @@
 # SCOPE
 
-SCOPE: a Tree-based Self-Correcting Online Log Parsing mehtod with Syntactic-Semantic Collaboration.
+SCOPE: a Tree-based Self-Correcting Online Log Parsing method with Syntactic-Semantic Collaboration.
 It introduces a novel bi-directional tree structure that enables efficient template matching from both forward and reverse directions, resulting in a higher overall matching rate. Additionally, it adopts a two-stage syntactic-semantic collaboration framework: a lightweight NLP model first utilizes POS information for syntax-based matching, while the LLM is selectively invoked as a fallback to handle semantically complex cases when uncertainty remains. This design significantly reduces LLM API usage while maintaining high accuracy, achieving a balance between efficiency and effectiveness.
 
 SW framework is extented based on Drain3.
@@ -98,3 +98,4 @@ Contributions are welcome! Please open issues or submit pull requests for improv
 ## License
 
 This project is open-source. See the LICENSE file for details.
+
